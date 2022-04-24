@@ -29,11 +29,11 @@ To run this project, one needs the following environments
 
 - AWS GLUE DATA BREW 
 
-- DB POSTGRESSQL (AWS RDS) 
+- DB POSTGRESQL (AWS RDS) 
 
 - `TWITTER_ACADEMIC_API`
 
-- `REDDIT_ACADEMIC_API`
+- `REDDIT_API`
 
 - `Kaggle data: https://www.kaggle.com/datasets/foklacu/ukraine-war-tweets-dataset-65-days?select=Ukraine_war.csv`
 
