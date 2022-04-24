@@ -1,0 +1,71 @@
+[
+  {
+    "Action": {
+      "Operation": "DELETE_DUPLICATE_ROWS",
+      "Parameters": {
+        "duplicateRowsCount": "0"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "SPLIT_COLUMN_SINGLE_DELIMITER",
+      "Parameters": {
+        "includeInSplit": "true",
+        "limit": "1",
+        "pattern": " ",
+        "sourceColumn": "Time Created"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "RENAME",
+      "Parameters": {
+        "sourceColumn": "Time Created_1",
+        "targetColumn": "Date"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "RENAME",
+      "Parameters": {
+        "sourceColumn": "Time Created_2",
+        "targetColumn": "Time"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "FORMAT_DATE",
+      "Parameters": {
+        "sourceColumn": "Date",
+        "targetDateFormat": "dd MMMM"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "DELETE",
+      "Parameters": {
+        "sourceColumns": "[\"Time\",\"Number_of_Likes\"]"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "REMOVE_VALUES",
+      "Parameters": {
+        "sourceColumn": "Number_of_Retweets"
+      }
+    },
+    "ConditionExpressions": [
+      {
+        "Condition": "LESS_THAN",
+        "Value": "59",
+        "TargetColumn": "Number_of_Retweets"
+      }
+    ]
+  }
+]
