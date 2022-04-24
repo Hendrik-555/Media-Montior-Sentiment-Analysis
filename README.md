@@ -23,11 +23,13 @@ To run this project, one needs the following environments
 
 - AWS LAMBDA FUNCTIONS
 
+- AWS Cloud 9
+
 - AWS REDSHIFT
 
 - AWS GLUE DATA BREW 
 
-- DB POSTGRESSQL
+- DB POSTGRESSQL (AWS RDS) 
 
 - `TWITTER_ACADEMIC_API`
 
@@ -62,9 +64,9 @@ To run this project, one needs the following environments
 
 🧠 We currently learning applied data science at HSLU Lucerne
 
-🤔 We looking for help with Lambda debugging
+🤔 We looking for help with Lambda debugging 
 
 💬 Ask us about NLP, Twitter, Reddit 
 
-⚡️ Fun fact ...
+⚡️ Fun fact: We are neither on Twitter nor on Reddit! 
 
