@@ -10,7 +10,7 @@ This project aims to help reporters, NGO researchers and interested persons to g
 
 ## Sub-Project 01 
 
-The data soruces are gathered via APIs, automatically cleansed AWS Glue Databrew jobs and stored in data lake AWS S3 Buckets.
+The data soruces are gathered via APIs, automatically cleansed with AWS Glue Databrew jobs and stored in data lake AWS S3 Buckets.
 
 ## Sub-Project 02
 
