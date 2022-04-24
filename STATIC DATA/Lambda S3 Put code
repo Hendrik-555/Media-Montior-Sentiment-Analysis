@@ -1,4 +1,4 @@
-## Lambda 
+## Lambda to check if upload on S3 buckets was successful
 
 Lambda to 
 import codecs
