@@ -10,7 +10,7 @@ This project aims to help reporters, NGO researchers and interested persons to g
 
 In the first Project 01; The data soruces are gathered via APIs, automatically cleansed AWS Glue Databrew jobs and stored in data lake AWS S3 Buckets.
 
-In the second Project 02; A data warehouse with AWS Redshift is created to combine all data sources. Futher sentiment analysis using NLP methods are applied. Lastly Insightful charts and graphs of the sentiment analysis are presented.
+In the second Project 02; A data warehouse with AWS Redshift is created to combine all data sources. Futher sentiment analysis using NLP methods are applied. Lastly insightful sentiment analysis are presented with additionaly data points are presented.
 
 ## Requirements
 
