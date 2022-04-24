@@ -62,9 +62,9 @@ To run this project, one needs the following environments
 
 🧠 We currently learning applied data science at HSLU Lucerne
 
-🤔 We looking for help with...
+🤔 We looking for help with Lambda debugging
 
 💬 Ask us about NLP, Twitter, Reddit 
 
-⚡️ Fun fact...
+⚡️ Fun fact ...
 
