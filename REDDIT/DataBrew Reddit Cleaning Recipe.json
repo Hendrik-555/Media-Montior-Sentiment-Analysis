@@ -1,0 +1,27 @@
+[
+  {
+    "Action": {
+      "Operation": "FORMAT_DATE",
+      "Parameters": {
+        "sourceColumn": "timestamp",
+        "targetDateFormat": "dd MMMM"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "DELETE",
+      "Parameters": {
+        "sourceColumns": "[\"url\"]"
+      }
+    }
+  },
+  {
+    "Action": {
+      "Operation": "DELETE",
+      "Parameters": {
+        "sourceColumns": "[\"_c0\"]"
+      }
+    }
+  }
+]
