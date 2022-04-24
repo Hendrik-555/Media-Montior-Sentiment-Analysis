@@ -53,7 +53,7 @@ To run this project, one needs the following environments
 🐍 Python, SQL, AWS Services, basic linux, business acumen...
 
 
-## Other Common Github Profile Sections
+## Common Github Sections
 👩‍💻 We currently working on our Project phase 02
 
 🧠 We currently learning applied data science at HSLU Lucerne
