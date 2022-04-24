@@ -8,9 +8,13 @@ Sentiment analyses on Twitter and Reddit using NLP regarding the ongoing Russo-U
 
 This project aims to help reporters, NGO researchers and interested persons to get sentinemnt insights concering the ongoing Russo-Ukrainian war. Our NLP analysis will help the insight consumers to know where public opinions are heading. In this Project we gather Twitter and Reddit information and combine it with further data sources. 
 
-In the first Project 01; The data soruces are gathered via APIs, automatically cleansed AWS Glue Databrew jobs and stored in data lake AWS S3 Buckets.
+## Sub-Project 01 
 
-In the second Project 02; A data warehouse with AWS Redshift is created to combine all data sources. Futher sentiment analysis using NLP methods are applied. Lastly insightful sentiment analysis are presented with additionaly data points are presented.
+The data soruces are gathered via APIs, automatically cleansed AWS Glue Databrew jobs and stored in data lake AWS S3 Buckets.
+
+## Sub-Project 02
+
+A data warehouse with AWS Redshift is created to combine all data sources. Futher sentiment analysis using NLP methods are applied. Lastly insightful sentiment analysis are presented with additionaly data points are presented.
 
 ## Requirements
 
