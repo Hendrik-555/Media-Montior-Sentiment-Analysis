@@ -2,7 +2,7 @@
 # Twitter & Reddit Monitor
 
 
-Sentiment analyses on Twitter and Reddit using NLP regarding the ongoing Russo-Ukrainian war 
+Sentiment and trends analysis on Twitter and Reddit using NLP regarding the ongoing Russo-Ukrainian war 
 
 ## Project Summary
 
