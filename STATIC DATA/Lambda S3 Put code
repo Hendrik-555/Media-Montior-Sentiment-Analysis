@@ -1,0 +1,63 @@
+## Lambda 
+
+Lambda to 
+import codecs
+import csv
+import boto3
+client = boto3.client("s3")
+
+
+
+def read_csv_from_s3(bucket_name, key, column):
+    data = client.get_object(Bucket=bucket_name, Key=key)
+
+for row in csv.DictReader(codecs.getreader("utf-8")(data["Body"])):
+        print(row[column])
+
+
+ bucket = event['Records'][0]['s3']['bucket']['name']
+    
+ key = urllib.parse.unquote_plus(event['Records'][0]['s3']['object']['key'], encoding='utf-8')
+  
+  response = s3.get_object(Bucket=bucket, Key=key)
+
+## S3 Put even code
+
+{
+  "Records": [
+    {
+      "eventVersion": "2.0",
+      "eventSource": "aws:s3",
+      "awsRegion": "us-east-1",
+      "eventTime": "1970-01-01T00:00:00.000Z",
+      "eventName": "ObjectCreated:Put",
+      "userIdentity": {
+        "principalId": "EXAMPLE"
+      },
+      "requestParameters": {
+        "sourceIPAddress": "127.0.0.1"
+      },
+      "responseElements": {
+        "x-amz-request-id": "EXAMPLE123456789",
+        "x-amz-id-2": "EXAMPLE123/5678abcdefghijklambdaisawesome/mnopqrstuvwxyzABCDEFGH"
+      },
+      "s3": {
+        "s3SchemaVersion": "1.0",
+        "configurationId": "testConfigRule",
+        "bucket": {
+          "name": "datalakepartitionthree",
+          "ownerIdentity": {
+            "principalId": "EXAMPLE"
+          },
+          "arn": "arn:aws:s3:::example-bucket"
+        },
+        "object": {
+          "key": "Redditv1.csv",
+          "size": 1024,
+          "eTag": "0123456789abcdef0123456789abcdef",
+          "sequencer": "0A1B2C3D4E5F678901"
+        }
+      }
+    }
+  ]
+}
