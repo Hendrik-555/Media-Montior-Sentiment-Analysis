@@ -6,7 +6,7 @@ Sentiment and trends analysis on Twitter and Reddit using NLP regarding the ongo
 
 ## Project Summary
 
-This project aims to help reporters, NGO researchers and interested persons to get sentinemnt insights concering the ongoing Russo-Ukrainian war. Our NLP analysis will help the insight consumers to know where public opinions are heading. In this Project we gather Twitter and Reddit information and combine it with further data sources. 
+This project aims to help reporters, NGO researchers and interested persons to get sentinemnt insights concerning the ongoing Russo-Ukrainian war. Our NLP analysis will help the insight consumers to know where public opinions are heading. In this Project we gather Twitter and Reddit information and combine it with further data sources. 
 
 ## Sub-Project 01 
 
