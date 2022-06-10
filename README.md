@@ -1,12 +1,14 @@
 
 # Twitter & Reddit Monitor
 
-
 Sentiment and trends analysis on Twitter and Reddit using NLP regarding the ongoing Russo-Ukrainian war 
 
 ## Project Summary
 
 This project aims to help reporters, NGO researchers and interested persons to get sentinemnt insights concerning the ongoing Russo-Ukrainian war. Our NLP analysis will help the insight consumers to know where public opinions are heading. In this Project we gather Twitter and Reddit information and combine it with further data sources. 
+
+## Tableau Dashboard
+https://public.tableau.com/app/profile/hendrik.croce6539/viz/DashboardSocialMediaMonitor/Dashboard1
 
 ## Sub-Project 01 
 
