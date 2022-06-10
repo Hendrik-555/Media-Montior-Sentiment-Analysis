@@ -14,7 +14,7 @@ The data sources are gathered via APIs, automatically cleaned with AWS Glue Data
 
 ## Sub-Project 02
 
-A data warehouse with AWS Redshift is created to combine all data sources. Futher trends and sentiment analysis using NLP methods are applied. Lastly, insightful sentiment, key word density analysis are presented with to our audience.
+A RDS database is created to combine all data sources. Futher trends and sentiment analysis using NLP methods are applied. Lastly, insightful sentiment, key word density analysis are presented with to our audience.
 
 ## Requirements
 
@@ -25,7 +25,7 @@ To run this project, one needs the following environments
 
 - AWS Cloud 9
 
-- AWS REDSHIFT
+- AWS RDS
 
 - AWS GLUE DATA BREW 
 
