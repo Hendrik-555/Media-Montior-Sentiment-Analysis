@@ -60,7 +60,6 @@ To run this project, one needs the following environments
 
 
 ## Common Github
-👩‍💻 We are currently working on our Project phase 02
 
 🧠 We are currently learning applied data science at HSLU Lucerne
 
